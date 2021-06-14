@@ -6,6 +6,7 @@ The Official [Bike Arlington](http://counters.bikearlington.com/data-for-develop
 
 I've created these scripts for a multi-part project [Visualizing Arlington's Covid-19 Biking Trends](https://nathansprojects.com/part_1_the_plan.html) that I've posted online. The project outlines all the necessary information to go from zero to creating visualizations in R with data from your local MySQL database.
 
+![](newplot.png)
 ## Using the module
 
 Before you use the module, you need to setup your MySQL database, which is [Part 3 of my 'Visualizing Arlington's Covid-19 Biking Trends' project](https://nathansprojects.com/part_3_setup_your_database.html).
