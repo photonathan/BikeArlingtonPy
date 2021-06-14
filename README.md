@@ -20,16 +20,21 @@ Generally, the functions in BikeArlingtonPy will perform variations on 4 actions
 ## The functions
 
 **all_counts_by_date_to_sql()**
+
 Queries the Bike Arlington API to pull all counts by **day**. Hardcoded start date that represents the first datapoint in the Bike Arlington API. Data is parsed, cleaned, and converted to a dataframe with defined columns. Dataframe is then uploaded to MySQL Database.
 
 **all_counts_by_hour_to_sql()**
+
 Queries the Bike Arlington API to pull all counts by **hour**. Hardcoded start date that represents the first datapoint in the Bike Arlington API. Data is parsed, cleaned, and converted to a dataframe with defined columns. Dataframe is then uploaded to MySQL Database.    
 
 **new_counts_by_hour_to_sql()**
+
 Queries your database to find the most recent date uploaded. Uses the most recent date to query the Bike Arlington API to pull all **hourly** counts until yesterday. Data is parsed, cleaned, and converted to a dataframe with defined columns. Dataframe is uploaded to MySQL Database.
 
 **new_counts_by_day_to_sql()**
+
 Queries your database to find the most recent date uploaded. Uses the most recent date to query the Bike Arlington API to pull all **daily** counts until yesterday. Data is parsed, cleaned, and converted to a dataframe with defined columns. Dataframe is uploaded to MySQL Database.
 
 **bikeometer_to_sql()**
+
 Makes a GET request to the Bike Arlington API using the GetAllCounters method as a parameter. The API returns a response object that is first converted to a string, cleaned, and converted to an XML object. The XML object is then parsed for the relevant information, and added to a list. Each list, representing a Bikeometer, is converted to a tuple and added to a final list which can easily be saved to a csv or dataframe using the above functions.
