@@ -527,8 +527,9 @@ def first_sql_date_counts_hourly(engine):
             date = day[0]
     return date
 
-
-
+###########################
+#Not Implemented Functions#
+###########################
 
 
 def bikeometer_to_dataframe(CounterLocationsList):
@@ -608,17 +609,11 @@ def count_dataframe_to_sql(columns):
 def bikeometer_dataframe_to_sql():
     pass
 
-# Instead of entering in sql username and pw over and over, do a try statement
-# Use Except statement if no username and pw is defined yet and a second except if user name/pw is wrong
-# If needed, establish sql connection and save user and pw in memory
-
 def count_dataframe_to_pickle():
     pass
 
 def CounterDataframeToPickle():
     pass
-
-
 
 def upsert_sql():
     '''
