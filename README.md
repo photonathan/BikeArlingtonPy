@@ -2,6 +2,8 @@
  
 ## Introduction
 
+![](bikeometer.jpg)
+
 The Official [Bike Arlington](http://counters.bikearlington.com/data-for-developers/) API is accessed through [this URL](http://webservices.commuterpage.com/counters.cfc?wsdl) with multiple endpoints/methods to get everything from the number of bikers or pedestrians passing a Bikeometer that day, longitude/latitude of each Bikeometer, to the weather that day.
 
 I've created these scripts for a multi-part project [Visualizing Arlington's Covid-19 Biking Trends](https://nathansprojects.com/part_1_the_plan.html) that I've posted online. The project outlines all the necessary information to go from zero to creating visualizations in R with data from your local MySQL database.
