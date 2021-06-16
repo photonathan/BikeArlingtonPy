@@ -2,7 +2,7 @@
  
 ## Introduction
 
-![](bikeometer.jpg)
+![](bikeometer1.jpg)
 
 The Official [Bike Arlington](http://counters.bikearlington.com/data-for-developers/) API is accessed through [this URL](http://webservices.commuterpage.com/counters.cfc?wsdl) with multiple endpoints/methods to get everything from the number of bikers or pedestrians passing a Bikeometer that day, longitude/latitude of each Bikeometer, to the weather that day.
 
